@@ -13,14 +13,14 @@ THREAD="-j$(grep -c ^processor /proc/cpuinfo)"
 KERNEL="Image.gz-dtb"
 DTBIMAGE="dtb"
 DEFCONFIG="yarpiin_defconfig"
-KERNEL_DIR="/home/yarpiin/Android/OP3/White-Wolf-OP3-LOS-ORE"
+KERNEL_DIR="/home/yarpiin/Android/OP3/White-Wolf-OP3-LOS"
 RESOURCE_DIR="$KERNEL_DIR/.."
 LAZYFLASHER_DIR="/home/yarpiin/Android/OP3/lazyflasherOP3"
 TOOLCHAIN_DIR="/home/yarpiin/Android/Toolchains"
 
 # Kernel Details
 BASE_YARPIIN_VER="WHITE.WOLF.OP3.LOS.ORE"
-VER=".012"
+VER=".BETA"
 YARPIIN_VER="$BASE_YARPIIN_VER$VER"
 
 # Vars
