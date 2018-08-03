@@ -1,6 +1,24 @@
 
 Project name: White-Wolf-OP3-LOS
 
+03/08/2018
+
+  * version 18
+  * perf: disable cross_hotplug for l2 cache pmu. (Yabin Cui) [38fd4a1]
+  * cpu-hotplug: convert cpu_hotplug_disabled to a counter (Vitaly Kuznetsov) [49d8eb6]
+  * cpu-hotplug: Always use real time scheduling when hotplugging a CPU (Syed Rameez Mustafa) [191f9eb]
+  * yarpiin_defconfig: enable msm performance (Slawek) [58e823a]
+  * msm: performance: prevent the driver from handling userspace min freq cpu boost hints. We'll use the standard cpu-boost input-boost functionality which gives users freedom to choose their own settings (franciscofranco) [94324bb]
+  * Fix "BACKPORT: arm64: cpufeature: Change read_cpuid() to use sysreg's mrs_s macro" (mifl) [8860ded]
+  * crypto: msm: Select CRYPTO_DEV_QCE50 for the right ARCHs (Michael Bestas) [f10d0c2]
+  * iommu: Correct ARCH dependencies of MSM_IOMMU_V1 (Michael Bestas) [566a313]
+  * clk: msm: Build the right clock drivers for the right ARCH (Michael Bestas) [dfe5c50]
+  * tty:  check before stopping kthread (Philip Cuadra) [759be82]
+  * kthread/smpboot: do not park in kthread_create_on_cpu() (Petr Mladek) [1848dac]
+  * soc: qcom: glink: Fix memory leak in driver probe (Sultanxda) [cec904a]
+  * Revert "Revert "rcu: Make RCU_FAST_NO_HZ take advantage of numbered callbacks"" (ahmedradaideh) [2020dda]
+  * Merge tag 'LA.UM.6.6.r1-09400-89xx.0' of vendor/qcom-opensource/wlan/qcacld-2.0 into lineage-15.1-caf-8996 (Michael Bestas) [67f24db]
+
 30/07/2018
 
   * version 17
