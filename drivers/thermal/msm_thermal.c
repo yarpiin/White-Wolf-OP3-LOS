@@ -78,7 +78,7 @@
 #define THERM_DDR_MASTER_ID  1
 #define THERM_DDR_SLAVE_ID   512
 #define THERM_DDR_IB_VOTE_REQ   366000000
-#define INTELLI_USER_FREQ 1000000
+#define INTELLI_USER_FREQ 1324800
 
 #define VALIDATE_AND_SET_MASK(_node, _key, _mask, _cpu) \
 	do { \
@@ -151,7 +151,7 @@ static int ocr_rail_cnt;
 static int limit_idx;
 static int limit_idx_low = 8;
 static int limit_idx_high = 20;
-static int intelli_user_control = 1;
+static int intelli_user_control = 0;
 static int intelli_user_freq = INTELLI_USER_FREQ;
 static int max_tsens_num;
 static struct cpufreq_frequency_table *table;
