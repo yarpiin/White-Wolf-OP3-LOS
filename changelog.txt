@@ -1,6 +1,26 @@
 
 Project name: White-Wolf-OP3-LOS
 
+22/08/2018
+
+  * version 20
+  * Linux 3.18.119 (Greg Kroah-Hartman) [a69c10d]
+  * Bluetooth: hidp: buffer overflow in hidp_process_report (Mark Salyzyn) [4c2b2810]
+  * crypto: ablkcipher - fix crash flushing dcache in error path (Eric Biggers) [5f9138a]
+  * crypto: blkcipher - fix crash flushing dcache in error path (Eric Biggers) [b7b3a34]
+  * crypto: vmac - separate tfm and request context (Eric Biggers) [a5716b0]
+  * crypto: vmac - require a block cipher with 128-bit block size (Eric Biggers) [26ec871]
+  * kbuild: verify that $DEPMOD is installed (Randy Dunlap) [1b91dbdd28]
+  * i2c: ismt: fix wrong device address when unmap the data buffer (Liwei Song) [9ee923aa]
+  * mm: slub: fix format mismatches in slab_err() callers (Andrey Ryabinin) [c78e9946]
+  * ALSA: info: Check for integer overflow in snd_info_entry_write() (Erick Reyes) [b0d1b22]
+  * kprobes/x86: Fix %p uses in error messages (Masami Hiramatsu) [429e27c]
+  * ARM: dts: imx6sx: fix irq for pcie bridge (Oleksij Rempel) [0d26bdf]
+  * fix __legitimize_mnt()/mntput() race (Al Viro) [671f01a]
+  * fix mntput/mntput race (Al Viro) [d21f322e]
+  * root dentries need RCU-delayed freeing (Al Viro) [06a20a3]
+  * xen/netfront: don't cache skb_shinfo() (Juergen Gross) [bae5ed8]
+
 14/08/2018
 
   * version 19
