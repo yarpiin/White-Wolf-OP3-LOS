@@ -1,6 +1,15 @@
 
 Project name: White-Wolf-OP3-LOS
 
+13/10/2018
+
+  * version 23
+  * staging: ion: msm: Apply d82ad70e8aff to msm_ion_custom_ioctl (Nathan Chancellor) [286addf]
+  * BACKPORT: staging: android: ion: Pull out ion ioctls to a separate file (Laura Abbott) [2ecd0b7]
+  * Merge 3.18.124 into lineage-15.1 (Nathan Chancellor) [97f66a9]
+  * Merge remote-tracking branch 'LineageOS/lineage-15.1' into lineage-15.1 (Nathan Chancellor) [d4601b3]
+  * yarpiin_defconfig: update (Slawek) [20bd0b30]
+
 11/10/2018
 
   * version 22
