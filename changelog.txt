@@ -1,6 +1,12 @@
 
 Project name: White-Wolf-OP3-LOS
 
+
+19/11/2018
+
+  * version 24
+  * Merge 3.18.125 into lineage-15.1 (Nathan Chancellor) [fbc7a10]
+
 13/10/2018
 
   * version 23
