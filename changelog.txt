@@ -1,6 +1,13 @@
 
 Project name: White-Wolf-OP3-LOS
 
+30/11/2018
+
+  * version 25
+  * Merge 3.18.127 into lineage-15.1 (Nathan Chancellor) [5a5fad5]
+  * Merge 3.18.126 into lineage-15.1 (Nathan Chancellor) [fe480c0]
+  * ext4: fix buffer leak in __ext4_read_dirblock() on error path (Vasily Averin) [6fc9a74]
+
 
 19/11/2018
 
